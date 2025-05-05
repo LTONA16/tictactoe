@@ -1,0 +1,38 @@
+input[type='button']{
+    width: 8rem;
+    height: 8rem;
+    font-size: 4rem;
+}
+
+table{
+    position: relative;
+    border-collapse: collapse;
+}
+
+td,tr{
+    position: relative;
+}
+
+/*td:nth-child(1)::after{
+    content: "";
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: 50%;
+    width: 5px;
+    background-color: darksalmon;
+    z-index: inherit;
+    pointer-events: none;
+}*/
+
+/*tr:nth-child(1)::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 5px;
+    height: 5px;
+    background-color: darksalmon;
+    z-index: inherit;
+    pointer-events: none;
+}*/

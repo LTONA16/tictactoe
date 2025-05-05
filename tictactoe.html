@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/functions.js" defer></script>
+    <title>Tic tac toe Sonorense</title>
+</head>
+
+<body class="bg-[#EEEEEE]">
+    <div class="flex flex-col items-center h-screen">
+        <h1 class="pb-2 pt-2 font-bold text-2xl">Tic tac toe Sonorense</h1>
+        <p id="temporizador">Tiempo restante: 60s</p>
+        <table class="bg-white border-2 border-black space-x-2">
+            <tr>
+                <td><input type="button" class="border-1 border-black text-[#00ADB5]" onclick="turno(this);"></td>
+                <td><input type="button" class="border-1 border-black text-[#00ADB5]" onclick="turno(this);"></td>
+                <td><input type="button" class="border-1 border-black text-[#00ADB5]" onclick="turno(this);"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="border-1 border-black text-[#00ADB5]" onclick="turno(this);"></td>
+                <td><input type="button" class="border-1 border-black text-[#00ADB5]" onclick="turno(this);"></td>
+                <td><input type="button" class="border-1 border-black text-[#00ADB5]" onclick="turno(this);"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="border-1 border-black text-[#00ADB5]" onclick="turno(this);"></td>
+                <td><input type="button" class="border-1 border-black text-[#00ADB5]" onclick="turno(this);"></td>
+                <td><input type="button" class="border-1 border-black text-[#00ADB5]" onclick="turno(this);"></td>
+            </tr>
+        </table>
+        <h2 id="turno" class="font-bold pt-2 mb-1"></h2>
+        <button id="reiniciar" type="button" class="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-3 py-2 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" onclick="reiniciar()" style="display:none;">Jugar de nuevo</button>
+    </div>
+</body>
+
+</html>
