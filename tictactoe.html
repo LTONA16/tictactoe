@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="./output.css" rel="stylesheet">
     <script src="./js/functions.js" defer></script>
     <title>Tic tac toe Sonorense</title>
 </head>
-
 <body class="bg-[#EEEEEE]">
     <div class="flex flex-col items-center h-screen">
         <h1 class="pb-2 pt-2 font-bold text-2xl">Tic tac toe Sonorense</h1>
@@ -35,5 +34,7 @@
         <button id="reiniciar" type="button" class="text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-3 py-2 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" onclick="reiniciar()" style="display:none;">Jugar de nuevo</button>
     </div>
 </body>
-
+<footer class="bg-[#d9d7d7] text-black font-bold text-center py-1 fixed bottom-0 w-full">
+    <p>Desarrollado por Luis Tona</p>
+</footer>
 </html>
